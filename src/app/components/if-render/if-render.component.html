@@ -1,0 +1,7 @@
+<div class="class">
+    <div *ngIf="canShow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, tempora nobis exercitationem velit aut obcaecati sit explicabo ipsa, doloribus est minima in odit? Quae praesentium minima, fugiat quam ea delectus.</div>
+    <h2 *ngIf='name === "rudr1gu"; else nameNotFound'>o nome é rudr1gu</h2>
+    <ng-template #nameNotFound>
+        <h2>o nome não é rudr1gu</h2>
+    </ng-template>
+</div>

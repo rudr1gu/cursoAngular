@@ -1,13 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'cursoAngular';
+  userName = 'Rudr1gu';
+  userData = {
+    name: 'Rudr1gu',
+    age: 28,
+    job: 'Software Developer',
+    car: {
+      make: 'Porche',
+      model: 'Cayenne',
+      year: 2021
+    }
+  };
+  title = 'projetoAngular';
 }

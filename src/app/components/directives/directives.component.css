@@ -1,0 +1,10 @@
+.small-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}

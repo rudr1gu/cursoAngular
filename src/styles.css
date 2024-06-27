@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body, html{
+    width: 100vw;
+    min-height: 100vh ;
+}
+
+body {
+    padding-bottom: 500px;   
+}
+
+.class {
+    border-bottom: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+}
