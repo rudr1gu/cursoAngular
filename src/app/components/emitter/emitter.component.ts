@@ -7,13 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmitterComponent implements OnInit{
   constructor() { }
-  myNumber:number = 0;
+  primeiraDezena:number = 0;
+  segundaDezena:number = 0;
+  terceiraDezena:number = 0;
+  quartaDezena:number = 0;
+  quintadezena:number = 0;
+  sextaDezena:number = 0;
+
 
   ngOnInit(): void {
   }
 
   OnNumberChanged(): void {
-    this.myNumber = Math.floor(Math.random() * 100);
+    this.primeiraDezena = Math.floor(Math.random() * 60);
+    this.segundaDezena = Math.floor(Math.random() * 60);
+    this.terceiraDezena = Math.floor(Math.random() * 60);
+    this.quartaDezena = Math.floor(Math.random() * 60);
+    this.quintadezena = Math.floor(Math.random() * 60);
+    this.sextaDezena = Math.floor(Math.random() * 60);
+
   }
 
 }
