@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Pessoa } from '../../Pessoa';
+import { ListService } from '../../services/list.service';
 
 @Component({
   selector: 'app-list-render',
@@ -16,11 +17,18 @@ export class ListRenderComponent implements OnInit{
 
   pessoaDetails = ''
   
-  constructor() {}
+  constructor(private listService: ListService) {
+
+  }
   
   ngOnInit() {}
 
-  showLast(pessoa: Pessoa) {
+  showLast(pessoa: Pessoa):void {
     this.pessoaDetails = `O Sobrenome da pessoa é: ${pessoa.lastName}`
+  }
+
+  removePessoa(pessoa: Pessoa):void {
+    console.log('Pessoa a ser removida: ', pessoa)
+    this.list = this.listService.remove(this.list, pessoa)
   }
 }
