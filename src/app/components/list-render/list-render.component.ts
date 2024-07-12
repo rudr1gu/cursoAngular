@@ -8,27 +8,28 @@ import { ListService } from '../../services/list.service';
   styleUrl: './list-render.component.css'
 })
 export class ListRenderComponent implements OnInit{
-  list: Pessoa[] = [
-    {name: 'Cizok', age: 25, lastName: 'Silva'},
-    {name: 'Dudis', age: 30, lastName: 'Marilvis'},
-    {name: 'T4vzz', age: 35, lastName: 'Movic'},
-    {name: 'Rudr1gu', age: 40, lastName: 'Silva'},
-  ];
+  list: Pessoa[] = [];
 
   pessoaDetails = ''
   
   constructor(private listService: ListService) {
-
+    this.getPessoas()
   }
   
   ngOnInit() {}
 
   showLast(pessoa: Pessoa):void {
-    this.pessoaDetails = `O Sobrenome da pessoa é: ${pessoa.lastName}`
+    this.pessoaDetails = `O Sobrenome da pessoa é: ${pessoa.nome}`
   }
 
   removePessoa(pessoa: Pessoa):void {
     console.log('Pessoa a ser removida: ', pessoa)
     this.list = this.listService.remove(this.list, pessoa)
+  }
+
+  getPessoas(): void {
+    this.listService.getAll().subscribe((pessoas) => {
+      this.list = pessoas
+    })
   }
 }
