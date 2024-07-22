@@ -18,4 +18,9 @@ export class ListService {
   getAll(): Observable<Pessoa[]> {
     return this.http.get<Pessoa[]>(this.listUrl)
   }
+
+  getItem(id: number): Observable<Pessoa> {
+    const url = `${this.listUrl}/${id}`
+    return this.http.get<Pessoa>(url)
+  }
 }

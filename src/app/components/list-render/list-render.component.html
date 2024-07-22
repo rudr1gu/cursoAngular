@@ -1,6 +1,6 @@
 <div class="class">
     <h2>Pessoas</h2>
-    <li *ngFor="let pessoa of list">Nome: {{ pessoa.nome }}, Idade: {{pessoa.idade}}
+    <li *ngFor="let pessoa of list">Nome: <a routerLink="/list/{{pessoa.id}}">{{ pessoa.nome }}</a>, Idade: {{pessoa.idade}}
         <button (click)="showLast(pessoa)">Mostrar Sobrenome</button>
         <button (click)="removePessoa(pessoa)">Remover</button>
     </li>
