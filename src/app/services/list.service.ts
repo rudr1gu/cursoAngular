@@ -11,8 +11,8 @@ export class ListService {
 
   constructor(private http: HttpClient) { }
 
-  remove(pessoas: Pessoa[], pessoa: Pessoa){
-    return pessoas.filter((p) => p !== pessoa)
+  remove(id: number){
+    return this.http.delete<Pessoa[]>(`${this.listUrl}/${id}`)
   }
 
   getAll(): Observable<Pessoa[]> {

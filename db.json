@@ -1,116 +1,111 @@
 {
-    "animais": [
-        {
-            "id": 1,
-            "nome": "Leão",
-            "tipo": "Mamífero",
-            "idade": 8
-        },
-        {
-            "id": 2,
-            "nome": "Tigre",
-            "tipo": "Mamífero",
-            "idade": 6
-        },
-        {
-            "id": 3,
-            "nome": "Águia",
-            "tipo": "Ave",
-            "idade": 12
-        },
-        {
-            "id": 4,
-            "nome": "Girafa",
-            "tipo": "Mamífero",
-            "idade": 10
-        },
-        {
-            "id": 5,
-            "nome": "Elefante",
-            "tipo": "Mamífero",
-            "idade": 15
-        },
-        {
-            "id": 6,
-            "nome": "Cobra",
-            "tipo": "Réptil",
-            "idade": 4
-        },
-        {
-            "id": 7,
-            "nome": "Gato",
-            "tipo": "Mamífero",
-            "idade": 2
-        },
-        {
-            "id": 8,
-            "nome": "Cachorro",
-            "tipo": "Mamífero",
-            "idade": 5
-        },
-        {
-            "id": 9,
-            "nome": "Papagaio",
-            "tipo": "Ave",
-            "idade": 7
-        },
-        {
-            "id": 10,
-            "nome": "Peixe",
-            "tipo": "Aquático",
-            "idade": 1
-        }
-    ],
-    "pessoas": [
-        {
-            "id": 1,
-            "nome": "João",
-            "idade": 25
-        },
-        {
-            "id": 2,
-            "nome": "Maria",
-            "idade": 30
-        },
-        {
-            "id": 3,
-            "nome": "José",
-            "idade": 35
-        },
-        {
-            "id": 4,
-            "nome": "Ana",
-            "idade": 40
-        },
-        {
-            "id": 5,
-            "nome": "Carlos",
-            "idade": 45
-        },
-        {
-            "id": 6,
-            "nome": "Mariana",
-            "idade": 50
-        },
-        {
-            "id": 7,
-            "nome": "Pedro",
-            "idade": 55
-        },
-        {
-            "id": 8,
-            "nome": "Paula",
-            "idade": 60
-        },
-        {
-            "id": 9,
-            "nome": "Ricardo",
-            "idade": 65
-        },
-        {
-            "id": 10,
-            "nome": "Roberta",
-            "idade": 70
-        }
-    ]
+  "animais": [
+    {
+      "id": "1",
+      "nome": "Leão",
+      "tipo": "Mamífero",
+      "idade": 8
+    },
+    {
+      "id": "2",
+      "nome": "Tigre",
+      "tipo": "Mamífero",
+      "idade": 6
+    },
+    {
+      "id": "3",
+      "nome": "Águia",
+      "tipo": "Ave",
+      "idade": 12
+    },
+    {
+      "id": "4",
+      "nome": "Girafa",
+      "tipo": "Mamífero",
+      "idade": 10
+    },
+    {
+      "id": "5",
+      "nome": "Elefante",
+      "tipo": "Mamífero",
+      "idade": 15
+    },
+    {
+      "id": "6",
+      "nome": "Cobra",
+      "tipo": "Réptil",
+      "idade": 4
+    },
+    {
+      "id": "7",
+      "nome": "Gato",
+      "tipo": "Mamífero",
+      "idade": 2
+    },
+    {
+      "id": "8",
+      "nome": "Cachorro",
+      "tipo": "Mamífero",
+      "idade": 5
+    },
+    {
+      "id": "9",
+      "nome": "Papagaio",
+      "tipo": "Ave",
+      "idade": 7
+    },
+    {
+      "id": "10",
+      "nome": "Peixe",
+      "tipo": "Aquático",
+      "idade": 1
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "2",
+      "nome": "Maria",
+      "idade": 30
+    },
+    {
+      "id": "3",
+      "nome": "José",
+      "idade": 35
+    },
+    {
+      "id": "4",
+      "nome": "Ana",
+      "idade": 40
+    },
+    {
+      "id": "5",
+      "nome": "Carlos",
+      "idade": 45
+    },
+    {
+      "id": "6",
+      "nome": "Mariana",
+      "idade": 50
+    },
+    {
+      "id": "7",
+      "nome": "Pedro",
+      "idade": 55
+    },
+    {
+      "id": "8",
+      "nome": "Paula",
+      "idade": 60
+    },
+    {
+      "id": "9",
+      "nome": "Ricardo",
+      "idade": 65
+    },
+    {
+      "id": "10",
+      "nome": "Roberta",
+      "idade": 70
+    }
+  ]
 }
